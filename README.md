@@ -20,6 +20,6 @@ The favorites page will show a list of the beer names that the user has favorite
  ## *Guidance (what we’d like to see)*
  We’re interested in code quality and organization much more than a pretty appearance on the frontend. So don’t worry about spending a lot of time styling things, a very basic look is all you need.
 
-Use Next.js, React, and Redux. You should make use of Next’s getInitialProps lifecycle function, it will be used to get the data for populating your state https://nextjs.org/docs#fetching-data-and-component-lifecycle
+Use Next.js, React, and either Redux or React's default `setState()` or Apollo for state management. You should make use of Next’s getInitialProps lifecycle function, it will be used to get the data for populating your state https://nextjs.org/docs#fetching-data-and-component-lifecycle
 
 Spend time at the start of the project to plan things out. You want to make sure that you have exactly as many reducers and actions as it would make sense to use.
