@@ -1,4 +1,4 @@
-# frontend-eng-test-01
+# Browse Beer Styles and Save Your Favorite
 
 ## *Getting Started*
 Start off by forking this repository into your own github profile. What you will specifically build out is detailed below. Commit often as you complete tasks.
