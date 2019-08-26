@@ -1,5 +1,7 @@
 # Browse Beer Styles and Save Your Favorite
 
+------TODO: Make it just /beers and /favorites, and ask him to use an ESlint file
+
 ## *Getting Started*
 Start off by forking this repository into your own github profile. What you will specifically build out is detailed below. Commit often as you complete tasks.
 
