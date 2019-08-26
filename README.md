@@ -16,16 +16,18 @@ The beers page will use the `/beers` endpoint, and should have the option to sor
 
 Each beer entry will have a “favorite” button beside it, which will toggle whether or not that beer is a part of the user's list of favorite beers, stored in the Redux state. The favorites page will show a list of the beer names that the user has favorited. A button alongside each should allow them to “unfavorite”. You only need to support one user, and they don't need to go through any kind of login process, so the user state will likely just consist of the list of their favorites.
 
-You should use the `.eslint` file included in this project to ensure that your code formatting is consistent with our practices. Look for linter plugins that support ESLint for whatever your text editior of choice is.
+You should use the `.eslint` file included in this project to ensure that your code formatting is consistent with our practices. Look for linting plugins that support ESLint for whatever your text editior of choice is.
 
 
  ## *Guidance (what we’d like to see)*
+At the conclusion of this project, you will have a locally-running application that we can clone on our machines and run locally ourselves in the same way.
+
 We’re interested in code quality and organization much more than a pretty appearance on the frontend. So don’t worry about spending a lot of time styling things, a very basic look is all you need.
 
-Use Next.js, React, and either Redux or React's default `setState()` or Apollo for state management. You should make use of Next’s `getInitialProps()` lifecycle function, it will be used to get the data for populating your state https://nextjs.org/docs#fetching-data-and-component-lifecycle
+Use React and Redux for state management. During requests to the beer API, the state should reflect that there is a request in progress, and some kind of loading indicator on the front end.
 
 Spend time at the start of the project to plan things out. You want to make sure that you have exactly as many reducers and actions as it would make sense to use.
 
 
-## Bonus points
-Next.js
+## *Bonus points*
+We would be impressed and delighted if you can build your app using the [Next.js](https://nextjs.org) framework, which handles routing and supports serverside rendering out of the box. This framework is used in addition to React and Redux. They have nice tutorials [here](https://nextjs.org/learn/basics/getting-started). If you attempt this, you should make use of Next’s `getInitialProps()` lifecycle function to initially get the data for populating your state. Details about that function can be found here: https://nextjs.org/docs#fetching-data-and-component-lifecycle
