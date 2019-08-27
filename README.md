@@ -1,8 +1,8 @@
-# Browse Beer Styles and Save Your Favorite
+# Browse Beers and Save Your Favorite
 
 
 ## *Getting Started*
-Start off by forking this repository into your own github profile. What you will specifically build out is detailed below. Commit often as you complete tasks.
+Start off by forking this repository into your own github profile. What you will specifically build out is detailed below. Commit often, as you complete tasks.
 
 
 ## *Brief*
