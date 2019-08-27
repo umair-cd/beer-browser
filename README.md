@@ -19,7 +19,7 @@ Each beer entry will have a “favorite” button beside it, which will toggle w
 You should use the `.eslint` file included in this project to ensure that your code formatting is consistent with our practices. Look for linting plugins that support ESLint for whatever your text editior of choice is.
 
 
- ## *Guidance (what we’d like to see)*
+ ## *Measurables (what we’d like to see)*
 At the conclusion of this project, you will have a locally-running application that we can clone on our machines and run locally ourselves in the same way.
 
 We’re interested in code quality and organization much more than a pretty appearance on the frontend. So don’t worry about spending a lot of time styling things, a very basic look is all you need.
