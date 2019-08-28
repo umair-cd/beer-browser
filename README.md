@@ -24,7 +24,7 @@ At the conclusion of this project, you will have a locally-running application t
 
 We’re interested in code quality and organization much more than a pretty appearance on the frontend. So don’t worry about spending a lot of time styling things, a very basic look is all you need.
 
-Use React and Redux for state management. During requests to the beer API, the state should reflect that there is a request in progress, and some kind of loading indicator on the front end.
+Use React and Redux for state management. During requests to the beer API, the state should reflect that there is a request in progress, and should some kind of loading indicator on the front end.
 
 Spend time at the start of the project to plan things out. You want to make sure that you have exactly as many reducers and actions as it would make sense to use.
 
