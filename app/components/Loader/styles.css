@@ -1,0 +1,16 @@
+.loader-container{
+  position: fixed;
+  display: flex;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width:  100%;
+  overflow: show;
+ justify-content: center;
+ align-items: center;
+}
+
+.loader-container img {
+  height: 100px;
+  width: 100px;
+}

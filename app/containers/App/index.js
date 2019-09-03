@@ -12,14 +12,17 @@ import { Switch, Route } from 'react-router-dom';
 
 import HomePage from 'containers/HomePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
-
+import Beers from 'containers/Beers/Loadable';
+import FavouriteBeers from 'containers/FavouriteBeers/index'
 import GlobalStyle from '../../global-styles';
 
 export default function App() {
   return (
     <div>
       <Switch>
-        <Route exact path="/" component={HomePage} />
+        <Route exact path="/" component={Beers} />
+        <Route exact path="/beers" component={Beers} />
+        <Route exact path="/beers/fav" component={FavouriteBeers} />
         <Route component={NotFoundPage} />
       </Switch>
       <GlobalStyle />

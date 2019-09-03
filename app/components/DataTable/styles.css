@@ -1,0 +1,41 @@
+.sort-img {
+  cursor: pointer;
+  padding: 0 10px;
+}
+.sort-asc{
+  transform: rotate(-180deg);
+}
+
+.fav-img{
+  width: 25px;
+}
+
+.favlist-table-wrapper{
+  padding: 30px 0px 80px 0px;
+}
+
+.favlist-table{
+  width: 100%;
+  border: #ddd solid 1px;
+  padding: 0px 0px;
+  background: #fff;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.favlist-table tbody > tr > td{
+  padding: 8px;
+  border-bottom: #ddd solid 1px;
+  border-right: #ddd solid 1px;
+}
+
+.favlist-table tbody > tr > td.text-center{
+  text-align: center;
+}
+
+.favlist-table tbody > tr > th{
+  padding: 8px;
+  background: #eee;
+  border-right: #ddd solid 1px;
+  border-bottom: #ddd solid 1px;
+}
